@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-brand:   #0070F3;
+  --color-accent:  #FF4500;
+  --color-success: #00C853;
+  --color-danger:  #FF1744;
+  --color-bg:      #0A0A0A;
+  --color-surface: #111111;
+  --color-border:  #1F1F1F;
+  --font-mono:     'Geist Mono', monospace;
+  --font-sans:     'Geist', sans-serif;
+  --radius:        8px;
+  --shadow-glow:   0 0 24px rgba(0,112,243,0.25);
+}
+
+body {
+  background: #0A0A0A;
+  color: #fff;
+  font-family: var(--font-sans);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #111; }
+::-webkit-scrollbar-thumb { background: #333; border-radius: 2px; }
